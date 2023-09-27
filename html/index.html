@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b82587c59e.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- -----------header---------------- -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="photo/logo.png" class="logo">
+                <ul id="hamMenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="/register">Account</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="headerText">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span>Himanshu</span><br>from sikar</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------about-------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <img src="photo/chair.jpg" alt="">
+                </div>
+                <div class="col-2">
+                    <h1 class='about-title'>About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dicta sint nisi officiis ipsa nam
+                        fuga mollitia autem omnis quas repudiandae, laborum deserunt labore iure odit ullam quibusdam id
+                        animi!
+                        Vel natus molestiae sit, iste cumque soluta ratione saepe recusandae quam maxime eum,
+                        perferendis quo minima ad, est inventore. Repudiandae laudantium voluptate tempore, laboriosam
+                        sunt possimus et magni tenetur doloremque.
+                        Debitis officiis reprehenderit magnam minus asperiores, alias at illum voluptate dolorem
+                        architecto maxime quam sapiente! Eveniet commodi beatae nam quibusdam voluptas reprehenderit
+                        explicabo incidunt, veritatis dicta, voluptatibus dolores nisi ducimus!
+                        Accusamus ad cumque, nobis odio quae ab delectus dolorum explicabo alias, a doloribus fuga porro
+                        magni facere, placeat doloremque? A nihil inventore facere nulla libero maiores aut illo aperiam
+                        dolores!
+                        Voluptatum nihil eligendi sed dolore impedit quisquam perferendis totam pariatur quis
+                        voluptates, id, quaerat corrupti accusantium esse alias, nisi odit eveniet dolor mollitia at.
+                        Nobis quas deserunt fugiat aliquid ipsam!</p>
+                    <div class="title-tab">
+                        <div class="tab-link active-link" onclick="showContent('skills')">skills</div>
+                        <div class="tab-link" onclick="showContent('experience')">experience</div>
+                        <div class="tab-link" onclick="showContent('education')">education</div>
+                    </div>
+                    <div class="tab-content active-content" id="skills">
+                        <ul>
+                            <li><span>frontEnd</span><br>how to do frontend</li>
+                            <li><span>Design</span><br>how to do designing</li>
+                            <li><span>backEnd</span><br>how to do backend</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>experience</span><br>how to do frontend</li>
+                            <li><span>experience</span><br>how to do designing</li>
+                            <li><span>experience</span><br>how to do backend</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>bsc in nautical science</span><br>2013-2017, TMI,pune</li>
+                            <li><span>MBA in IT</span><br>2021-2023, manipal jaipur</li>
+                            <li><span>internship/diploma in it</span><br>2022-2023, IANT sikar</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------services------------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class='title'>My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Web Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto perferendis repudiandae
+                        quidem quasi quos quae minus dignissimos. Non, officia quam cumque ab totam consequuntur maxime
+                        sunt commodi saepe, accusamus necessitatibus?</p>
+                    <a href="">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h3>Backend Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto perferendis repudiandae
+                        quidem quasi quos quae minus dignissimos. Non, officia quam cumque ab totam consequuntur maxime
+                        sunt commodi saepe, accusamus necessitatibus?</p>
+                    <a href="">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h3>Frontend Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto perferendis repudiandae
+                        quidem quasi quos quae minus dignissimos. Non, officia quam cumque ab totam consequuntur maxime
+                        sunt commodi saepe, accusamus necessitatibus?</p>
+                    <a href="">learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- ------------------portfolio-------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="photo/w1.jpg" alt="">
+                    <div class="layer">
+                        <h3>social media app</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nisi, dignissimos sit
+                            corporis quia placeat et quos modi minus harum tenetur, repellat earum, perferendis ad!
+                            Ducimus, cupiditate ab! Quasi, nesciunt.</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="photo/w2.jpg" alt="">
+                    <div class="layer">
+                        <h3>Music app</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nisi, dignissimos sit
+                            corporis quia placeat et quos modi minus harum tenetur, repellat earum, perferendis ad!
+                            Ducimus, cupiditate ab! Quasi, nesciunt.</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="photo/w3.jpg" alt="">
+                    <div class="layer">
+                        <h3>Search app</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nisi, dignissimos sit
+                            corporis quia placeat et quos modi minus harum tenetur, repellat earum, perferendis ad!
+                            Ducimus, cupiditate ab! Quasi, nesciunt.</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- -----------contact------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope fa-beat"></i> hsharma1331@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume fa-shake"></i> +91-8008080026</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook fa-flip"
+                                style="color: #1465f0;"></i></a>
+                        <a href="https://www.whatsapp.com/"><i class="fa-brands fa-square-whatsapp fa-bounce"
+                                style="color: #78ff47;"></i></a>
+                        <a href="https://www.instagram.com/?hl=en"><i class="fa-brands fa-square-instagram fa-spin"
+                                style="color: #d74747;"></i></a>
+                    </div>
+                    <a href="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form onsubmit="sendEmail(); reset(); return false;">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your Phone no." required
+                            pattern="[0-9]{10}">
+                        <textarea id="msg" name="message" rows="10" placeholder="Enter message here"
+                            required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © hs . Made with 💖 by Himanshu Sharma</p>
+        </div>
+    </div>
+    <script>
+        var tablink = document.getElementsByClassName('tab-link');
+        var tabcontent = document.getElementsByClassName('tab-content');
+
+        function showContent(name) {
+            for (i of tablink) {
+                i.classList.remove('active-link')
+            }
+            for (i of tabcontent) {
+                i.classList.remove('active-content')
+            }
+            event.currentTarget.classList.add('active-link')
+            document.getElementById(name).classList.add('active-content')
+        }
+        var hamMenu = document.getElementById('hamMenu');
+        function openMenu() {
+            hamMenu.style.right = 0 + 'px'
+        }
+        function closeMenu() {
+            hamMenu.style.right = (-200) + 'px'
+        }
+    </script>
+    <!-- --------------gsap------------- -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+    <!-- <script src="script.js"></script> -->
+    <!-- --------smtp--------- -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail() {
+            Email.send({
+                Host: "smtp.elasticemail.com",
+                Username: "h4s114433@gmail.com",
+                Password: "D1D1F6521EFF2D29E2F9877E406BE074677E",
+                To: 'h4s114433@gmail.com',
+                From: "h4s114433@gmail.com",
+                Subject: "New Query from the Portfolio form",
+                Body: "Name:" + document.getElementById('name').value +
+                    "<br>" + "Email:" + document.getElementById('email').value +
+                    "<br>" + "Tel:" + document.getElementById('phone').value +
+                    "<br>" + "Message:" + document.getElementById('msg').value
+            }).then(
+                message => alert('Message sent successfully')
+            )
+        }
+    </script>
+</body>
+
+</html>
