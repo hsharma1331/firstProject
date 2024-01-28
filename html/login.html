@@ -21,15 +21,15 @@
                     <input type="email" name="email" autocomplete="off" style="color: white;" required>
                     <label>Email</label>
                 </div>
-                <div class="input-box"style="color: white;">
+                <div class="input-box" style="color: white;">
                     <input type="password" name="password" style="color: white;" required>
                     <label>Password</label>
-                </div>  
+                </div>
                 <div class="forget">
                     <label><input type="checkbox" name="" required>Remember me </label>
                     <a href=""> Forget Password?</a>
                 </div>
-                <button type="submit">Login</button>
+                <button id="in" type="submit">Login</button>
                 <div class="sign-up">
                     <p>Don't have an account?</p><a href="#" onclick="signUpf()">Register here</a>
                 </div>
@@ -39,23 +39,23 @@
             <form action="/register" method="POST" id="signUp">
                 <h2>Sign Up</h2>
                 <div class="input-box">
-                    <input type="email" name="email" autocomplete="off" style="color: white;">
+                    <input type="email" name="email" autocomplete="off" style="color: white;" required>
                     <label>Email</label>
                 </div>
                 <div class="input-box">
-                    <input type="password" name="password" style="color: white;">
+                    <input type="password" name="password" style="color: white;" required>
                     <label>Password</label>
                 </div>
                 <div class="input-box">
-                    <input type="tel" name="phone" style="color: white;">
+                    <input type="tel" name="phone" style="color: white;" required>
                     <label>Phone</label>
                 </div>
                 <div class="gender3">
-                    Male<input type="radio" name="gender2">
-                    Female<input type="radio" name="gender2">
+                    <span>Male<input type="radio" name="gender2"></span>
+                    <span>Female<input type="radio" name="gender2"></span>
                     <label><input type="checkbox" name="" required> I agree to the terms and conditions</label>
                 </div>
-                <button type="submit">Sign Up</button>
+                <button id="up" type="submit">Sign Up</button>
                 <div class="sign-in">
                     <p>Already have an account?<a href="#" onclick="signInf()">Login here</a></p>
                 </div>

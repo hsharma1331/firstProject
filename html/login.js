@@ -35,7 +35,7 @@ const signUp = document.querySelector('#signUp')
 
 function signUpf(){
     signIn.style.top="-500px"
-    signUp.style.top="5px"
+    signUp.style.top="0px"
 }
 function signInf(){
     signIn.style.top="30px"

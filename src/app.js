@@ -29,7 +29,7 @@ app.get("/login", (req,res)=>{
 });
 
 app.post("/register",async(req,res)=>{
-    try{
+    try{ 
         const addData=new Register({
             email:req.body.email,
             password:req.body.password,
